@@ -1,0 +1,66 @@
+Init 3
+PlantTree 1 2
+GetAllFruitsByRate 1 2
+GetBestFruit 1 2
+RateFruit 184 4
+AddFruit 1 2 193 7
+PlantTree 1 2
+GetAllFruitsByRate 1 2
+PlantTree 1 1
+GetBestFruit 1 2
+PlantTree 0 1
+GetBestFruit 1 2
+AddFruit 1 2 189 6
+GetBestFruit 0 1
+GetBestFruit 0 1
+PlantTree 0 0
+GetBestFruit 1 1
+PlantTree 0 2
+RateFruit 193 2
+AddFruit 0 1 147 12
+RateFruit 189 4
+AddFruit 0 0 177 16
+PlantTree 0 2
+GetAllFruitsByRate 0 2
+RateFruit 193 11
+AddFruit 1 2 151 13
+RateFruit 177 17
+AddFruit 0 1 41 19
+PlantTree 2 2
+GetBestFruit 0 2
+GetBestFruit 0 2
+PlantTree 1 2
+GetAllFruitsByRate 0 2
+AddFruit 1 2 110 14
+GetBestFruit 0 1
+GetBestFruit 0 0
+GetBestFruit 0 0
+AddFruit 0 1 148 2
+GetBestFruit 2 2
+GetBestFruit 0 0
+AddFruit 1 2 179 17
+GetBestFruit 0 2
+RateFruit 147 7
+GetBestFruit 1 1
+AddFruit 0 2 171 18
+AddFruit 0 0 192 5
+PlantTree 0 1
+GetAllFruitsByRate 2 2
+PlantTree 0 1
+GetBestFruit 2 2
+GetBestFruit 2 2
+GetAllFruitsByRate 1 2
+GetAllFruitsByRate 0 2
+GetAllFruitsByRate 0 1
+AddFruit 0 1 117 18
+RateFruit 151 12
+AddFruit 2 2 155 8
+PlantTree 2 1
+AddFruit 1 2 8 10
+AddFruit 0 1 800 18
+GetAllFruitsByRate 0 1
+UpdateRottenFruits 4 4
+GetAllFruitsByRate 0 1
+PickFruit 800
+GetAllFruitsByRate 0 1
+Quit

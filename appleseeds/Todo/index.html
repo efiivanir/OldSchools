@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html ng-app="toDoList">
+    <head>
+        <title>Todo List</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" 
+              content="width=device-width,initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular-route.js"></script>
+        
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+        <script src="toDoListCtrl.js"></script>
+        
+    </head>
+    <body ng-controller="toDoListCtrl">
+        <div class="jumbotron">
+            <h1 class="display-3">Todo List</h1>
+            <hr class="my-4">
+        </div>   
+
+ 
+
+        <div class="row">
+            <div class="col-sm-7">
+                <form class="form" ng-submit="addTask(newTask)">
+                    <div class="row">
+                        <div class="col-sm-10"> 
+                            <input type="text" class="form-control" id="item" placeholder="Insert task"  ng-model="newTask" >
+                        </div>
+                        <!-- 
+                             <div class="col-sm-2">
+                             <button class="btn btn-default" ng-click='addTask(newTask)'>Add</button>
+                             </div>
+                        -->
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="todoTask" ng-repeat="task in taskList" ng-mouseenter="hover(task)" ng-mouseleave="hover(task)" ng-show="task.done">
+            <div class="row">
+                <div class="col-sm-2">
+                    <input class="form-control" ng-model="task.done" type="checkbox">
+                </div>
+                <div class="col-sm-4 todoNameDiv">
+                    <span class="todoName" ng-class="{'toDoLineDone': task.done}" ng-bind="task.task"></span>
+                </div>
+                <div class="col-sm-2">
+                    <a ng-show="task.showDelete" ng-click="delTask(task)">Delete</a>
+                </div>
+            </div>
+        </div>                        
+
+
+
+
+
+        
+<!-- 
+     <div ng-repeat='task in taskList'>
+     <input type='checkbox' ng-model='task.done' />
+     <span ng-class='{done: task.done}'>{{task.task}}</span>
+     <div class="col-sm-2">
+     <button type="button" class="close pull-right bigSize" aria-hidden="true" ng-click="deleteTodo($index)">&times;</button>
+     </div>
+
+     </div>
+-->
+        <!-- <div>
+             <button type="button" class="btn btn-outline-primary">All</button>
+             <button type="button" class="btn btn-outline-primary">Active</button>
+             <button type="button" class="btn btn-outline-primary">Completed</button>
+             <span>   Items left   </span> <span> {{getUncompletedTaskNum()}}</span>
+             </div>
+        -->
+    </body>
+</html>

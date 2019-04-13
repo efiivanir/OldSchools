@@ -1,0 +1,27 @@
+[
+    {
+        "app": 1,
+        "fname": "Efi",
+        "lname": "Ivanir",
+        "email": "efi.ivanir@gmail.com",
+        "pwd": "123456",
+        "isMember": "true"
+    },
+    {
+        "app": 2,
+        "fname": "John",
+        "lname": "Doe",
+        "email": "john@john.com",
+        "pwd": "123",
+        "isMember": "true"
+    },
+    {
+        "app": 3,
+        "fname": "Moshe",
+        "lname": "Cohen",
+        "email": "moshe@moshe.com",
+        "pwd": "123",
+        "isMember": "false"
+    }
+    
+]

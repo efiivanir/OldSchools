@@ -1,0 +1,12 @@
+*.class
+*.jar
+*/JavaDoc/*
+bin/*
+dist/*
+*/*/*.jar
+*/*/*.class
+KinderGarden/.meghanada/*
+KinderGarden/Eyal/i*
+KinderGarden/*.log
+KinderGarden/*.txt
+

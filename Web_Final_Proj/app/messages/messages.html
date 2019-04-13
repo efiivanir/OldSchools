@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h4>Messages</h4>
+            
+            <div class="messages-cards" ng-repeat="message in messages">
+                <div class="card">
+                    <h5 class="card-header">{{message.title}}</h5>
+                    <div class="card-body">
+                        <h5 class="card-title">{{message.fname}} {{message.lname}}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{{message.date}}</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">{{message.priority}}</h6>
+                        
+                        <p class="card-text">{{message.text}}</p>
+                        <a class="btn btn-primary" bs-modal="modal" ng-click="edit_message(message)">Edit</a>
+                        <a class="btn btn-primary" ng-click="remove_message(message)">Remove</a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <br></br>
+            <button type="button" bs-modal="modal" class="btn btn-primary" ng-click="add_message()">Add new message</button>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app="dogsApp">
+    <head>
+        <title>Dogs Application</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" 
+          content="width=device-width,initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular-route.js"></script>
+        
+        
+        <script src="breedsCtrl.js"></script>
+        <script src="breedName2imgSrv.js"></script>
+        
+        
+    </head>
+    <body ng-controller="breedsCtrl">
+        <div class="jumbotron">
+            <h1 class="display-4">Dog book</h1>
+            <p class="lead">Man's best friend.</p>
+            <hr class="my-4">
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Woof!</a>
+            </p>
+        </div>
+        <div class="container">
+            <form class="my-3">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search dog bread" ng-model="searchText">
+                </div>
+            </form>
+            
+
+            <div ng-repeat="breed in breeds" class="galery">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{breed.img}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">{{breed.name}}</h5>
+                        
+                    </div>
+                    <p>baaaaa {{breed.name}}</p>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>

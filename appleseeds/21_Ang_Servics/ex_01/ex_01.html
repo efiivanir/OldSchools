@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html ng-app="moviesApp">
+    <head>
+        <title>ex_01</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" 
+              content="width=device-width,initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular-route.js"></script>
+
+        <link rel="stylesheet" href="ex_01.css">
+        <script src="app.js"></script>
+        <script src="moviesCtrl.js"></script>
+        <script src="moviesSrv.js"></script>
+        
+        <script src="actorsCtrl.js"></script>
+        <script src="minuts2hours.js"></script>
+        
+    </head>
+    <body >
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Actors</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Actors/Movies Gallery</h1>
+            <p class="lead">This are pictures of my favorite Actors/Movies.</p>
+            <!-- <hr class="my-4"> -->
+        </div>
+        <div class="container">
+            <div ng-controller="actorsCtrl">
+                <div class="row">
+                    <div ng-repeat="actor in actors" class="galery">
+                        <div class="card" ng-click="toggle(actor)"   ng-class="{'selected':actor.selected}">
+                            <img ng-src="{{actor.imgURL}}" class="img-responsive">
+                            <div class="card-body">
+                                <a href="{{actor.imdbURL}}" target="_blank">
+                                    <h5 class="card-title text-center">{{actor.fname + " " + actor.lname}}</h5>
+                                </a>    
+                                <p class="card-text text-center">{{actor.birthDate}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div ng-controller="moviesCtrl">
+                <div ng-repeat="movie in movies">
+                    <movie-card></movie-card>
+                </div>
+            </div>
+    </body>
+</html>

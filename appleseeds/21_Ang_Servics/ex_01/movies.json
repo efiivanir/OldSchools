@@ -1,0 +1,46 @@
+[
+    {
+        "name": "The Godfather",
+        "release": "1972",
+        "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR3,0,182,268_AL_.jpg",
+        "duration": "175",
+        "director": "Francis Ford Coppola",
+        "actors": ["Marlon Brando","Al Pacino","James Caan"]
+    },
+    {
+        "name": "Serpico",
+        "release": "1973",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTU4ZTI0NzAtYzMwNi00YmMxLThmZWItNTY5NzgyMDAwYWVhXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "duration": "130",
+        "director": "Sidney Lumet",
+        "actors": ["Al Pacino","John Randolph","Jack Kehoe"]
+    },
+    {
+        "name": "Carlito's Way",
+        "release": "1993",
+        "poster": "https://m.media-amazon.com/images/M/MV5BN2I2N2Q1YmMtMzZkMC00Y2JjLWJmOWUtNjc2OTM2ZTk1MjUyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "duration": "144",
+        "director": "Brian De Palma",
+        "actors": ["Al Pacino","Sean Penn","Penelope Ann Miller"]
+    },
+    {
+        "name": "The Deer Hunter",
+        "release": "1978",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDhmNTA0ZDMtYjhkNS00NzEzLWIzYTItOGNkMTVmYjE2YmI3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "duration": "215",
+        "director": "Michael Cimino",
+        "actors": ["Robert De Niro","Christopher Walken","John Cazale"]
+    },
+    {
+        "name": "and justice for all",
+        "release": "1979",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDk1MTljZjAtZDY5MC00YTAwLTk5MzEtZTMyMjI4YzRmZjcxXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "duration": "119",
+        "director": "Norman Jewison",
+        "actors": ["Al Pacino","Jack Warden","John Forsythe"]
+    }
+    
+    
+    
+    
+]

@@ -1,0 +1,21 @@
+.input-form {
+  border-top: dashed 1px;
+  padding-top: 1em;
+}
+
+
+
+.todoName{
+    font-size:20px;
+}
+
+.todoNameDiv{
+    margin-top:5px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
+.done{
+    text-decoration: line-through;
+}
+

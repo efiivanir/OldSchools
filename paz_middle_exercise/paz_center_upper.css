@@ -1,0 +1,72 @@
+#center_upper {
+    
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: block;
+    height: 280px;
+    
+}
+
+
+#center_upper img {
+    border-bottom-right-radius: 20px;
+    display: block;
+    height: 300px;
+    width: 97%;
+}
+
+
+#center_upper > #right,#center_upper > #middle,#center_upper > #left {
+    width: 33%;
+    float: right;
+    position: relative;
+    height: 300px;
+        
+}
+
+
+
+#center_upper #right .text , #center_upper #middle .text , #center_upper #left .text {
+    display: block;
+    width: 228px;
+    height: 120px;
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+    left: 55px;
+    bottom: 6px;
+    color: #fff;
+    background: #807D74;
+    z-index: 10;
+    border-bottom-right-radius: 20px;
+    margin-right: 1px;
+
+   
+}
+#center_upper div.text h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+#center_upper div.text p {
+    font-size: 13px;
+    margin-top: 4px;
+    color: white;
+}
+#center_upper div.text a.readMore {
+    float: left;
+    color: #fff;
+    position: relative;
+    bottom: 4px;
+    background: url(img/read_more_white.png) no-repeat left center;
+}
+
+#center_upper div.text a.readMore span {
+    padding-left: 12px;
+}
+
+
+#center_upper div.text a.readMore:hover {
+    color: #005ca0;
+}

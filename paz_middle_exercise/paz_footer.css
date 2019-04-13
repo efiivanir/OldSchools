@@ -1,0 +1,55 @@
+/*-----------------------------------------------------------------------------------------------------*/
+/* footer */
+
+footer {
+  width: 100%;
+  height: 38px;
+  position: fixed;
+  margin-top: 30px;
+  bottom: 0px;
+  background-color: #909090; 
+}
+
+footer .lower_menu {
+    width: 900px;
+    height: 100%;
+    font-size: 14px; margin-top: 16px;
+    display:block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+footer .lower_menu ul  {
+    color: #fff;
+}  
+
+footer .lower_menu li  {
+    float: right;
+    display: block;
+}  
+
+footer .lower_menu li.sep  {
+    margin: 0 5px;
+}  
+
+footer .lower_menu li a {
+    color: #fff;
+}  
+
+footer .lower_menu li a:hover {
+    color: #005CA0; 
+}  
+
+footer .lower_menu li a.fbLink {
+    display: block;
+    position: relative;
+    bottom: 2px;
+    width: 18px;
+    height: 18px;
+    background: url(img/fb_icon.png) no-repeat 0 0;
+}
+
+footer .lower_menu li.sep {
+    margin: 0 5px;
+    color: #fff;
+}

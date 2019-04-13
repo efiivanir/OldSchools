@@ -1,0 +1,39 @@
+[
+    {
+        "fname": "Al",
+        "lname": "Pacino",
+        "birthDate": "April 25, 1940",
+        "imgURL": "https://m.media-amazon.com/images/M/MV5BMTQzMzg1ODAyNl5BMl5BanBnXkFtZTYwMjAxODQ1._V1_UX214_CR0,0,214,317_AL_.jpg",
+        "imdbURL": "https://www.imdb.com/name/nm0000199"
+    },
+    {
+        "fname": "Robert",
+        "lname": "De Niro",
+        "birthDate": "August 17, 1943",
+        "imgURL": "https://m.media-amazon.com/images/M/MV5BMjAwNDU3MzcyOV5BMl5BanBnXkFtZTcwMjc0MTIxMw@@._V1_UY317_CR13,0,214,317_AL_.jpg",
+        "imdbURL": "https://www.imdb.com/name/nm0000134/"
+    },
+    {
+        "fname": "Marlon",
+        "lname": "Brando",
+        "birthDate": "April 3, 1924",
+        "imgURL": "https://m.media-amazon.com/images/M/MV5BMTg3MDYyMDE5OF5BMl5BanBnXkFtZTcwNjgyNTEzNA@@._V1_UY317_CR97,0,214,317_AL_.jpg",
+        "imdbURL": "https://www.imdb.com/name/nm0000008"
+    },
+    {
+        "fname": "Robert",
+        "lname": "Duvall",
+        "birthDate": "January 5, 1931",
+        "imgURL": "https://m.media-amazon.com/images/M/MV5BMjk1MjA2Mjc2MF5BMl5BanBnXkFtZTcwOTE4MTUwMg@@._V1_UY317_CR6,0,214,317_AL_.jpg",
+        "imdbURL": "https://www.imdb.com/name/nm0000380"
+    },
+    {
+        "fname": "Diane",
+        "lname": "Keaton",
+        "birthDate": "January 5, 1946",
+        "imgURL": "https://m.media-amazon.com/images/M/MV5BNjU5NjMwOTk2NV5BMl5BanBnXkFtZTYwODg1NzY0._V1_UY317_CR4,0,214,317_AL_.jpg",
+        "imdbURL": "https://www.imdb.com/name/nm0000473"
+    }
+    
+
+]
